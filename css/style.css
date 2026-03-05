@@ -1,9 +1,39 @@
 body{
     background-color: black;
     color: white;
-    font-family: Arial;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    text-align: center;
 }
 
 h1{
     color: red;
+    font-size: 50px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 10px red;
+}
+
+p{
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+img{
+    width: 300px;
+    border: 4px solid white;
+    border-radius: 10px;
+}
+
+.card{
+    background-color: #111;
+    max-width: 800px;   /* melhor que width fixo */
+    margin: 40px auto;  /* espaço em cima e embaixo */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(255,255,255,0.2);
+}
+
+ol, ul{
+    list-style-position: inside;
+    font-size: 18px;
 }
